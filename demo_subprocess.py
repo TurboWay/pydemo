@@ -3,7 +3,7 @@
 # @Time : 2020/7/13 17:20
 # @Author : way
 # @Site : 
-# @Describe: 执行 shell 命令
+# @Describe: 执行 shell
 
 import subprocess
 

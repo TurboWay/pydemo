@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # @Time : 2020/8/5 16:08
 # @Author : way
-# @Site : 
-# @Describe:  更多用法 https://www.jianshu.com/p/6bd6869631d9
+# @Site : 更多用法 https://www.jianshu.com/p/6bd6869631d9
+# @Describe:  生成假数据
 
 from faker import Faker
 

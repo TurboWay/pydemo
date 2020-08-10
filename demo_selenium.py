@@ -3,7 +3,7 @@
 # @Time : 2020/7/8 16:10
 # @Author : way
 # @Site : 
-# @Describe: 自动操作 浏览器
+# @Describe: 自动操作 chrome 浏览器
 
 import time
 import urllib3
