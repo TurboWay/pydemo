@@ -5,6 +5,7 @@
 
 | demo | 功能  | 
 | ------------ | ------------ |
+| [demo_decorator.py](https://github.com/TurboWay/pydemo/blob/master/demo_decorator.py)       | 重试装饰器 |
 | [demo_faker.py](https://github.com/TurboWay/pydemo/blob/master/demo_faker.py)       | 生成假数据 |
 | [demo_importlib.py](https://github.com/TurboWay/pydemo/blob/master/demo_importlib.py)       | 动态导入包 |
 | [demo_multithread.py](https://github.com/TurboWay/pydemo/blob/master/demo_multithread.py)       | 多线程并发 |
