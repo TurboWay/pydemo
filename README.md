@@ -17,4 +17,5 @@
 | [demo_selenium.py](https://github.com/TurboWay/pydemo/blob/master/demo_selenium.py)       | 自动操作 chrome 浏览器 |
 | [demo_sqlalchemy.py](https://github.com/TurboWay/pydemo/blob/master/demo_sqlalchemy.py)       | 执行 sql |
 | [demo_subprocess.py](https://github.com/TurboWay/pydemo/blob/master/demo_subprocess.py)       | 执行 shell |
+| [demo_useragent_parser.py](https://github.com/TurboWay/pydemo/blob/master/demo_useragent_parser.py)       | 解析 user-agent 识别用户端和其它相关信息 |
 | [demo_weekly.py](https://github.com/TurboWay/pydemo/blob/master/demo_weekly.py)       | 下载 科技爱好者周刊 docs 源码, 遍历生成纯资源 md |
