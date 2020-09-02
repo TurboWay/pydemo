@@ -3,10 +3,26 @@
 # @Time : 2020/8/19 10:16
 # @Author : way
 # @Site : 
-# @Describe: 重试装饰器
+# @Describe: 重试、计时装饰器
 
-# 不带传参装饰器
-def retry1(func):
+import time
+
+
+# 计时器
+def timer(function):
+    def wrapper(*args, **kwargs):
+        time_start = time.time()
+        result = function(*args, **kwargs)
+        time_end = time.time()
+        cost_time = time_end - time_start
+        print("花费时间：{}秒".format(cost_time))
+        return result
+
+    return wrapper
+
+
+# 重试装饰器
+def retry(func):
     max_retry = 3
 
     def run(*args, **kwargs):
@@ -19,8 +35,8 @@ def retry1(func):
     return run
 
 
-# 带传参装饰器
-def retry2(*args, **kwargs):
+# 重试装饰器(带传参)
+def retry_withparam(*args, **kwargs):
     max_retry = kwargs.get('max_retry', 3)
 
     def warpp(func):
@@ -36,18 +52,23 @@ def retry2(*args, **kwargs):
     return warpp
 
 
-@retry1
+@timer
 def do1(spider):
-    print(spider)
-    return False
+    return spider
 
 
-@retry2(max_retry=5)
+@retry
 def do2(spider):
     print(spider)
     return False
 
 
-do1('zhifang')
+@retry_withparam(max_retry=5)
+def do3(spider):
+    print(spider)
+    return False
 
-do2('zhifang2')
+
+print(do1("zhifang"))
+print(do2("zhifang"))
+print(do3("zhifang"))
