@@ -18,6 +18,7 @@
 | [demo_psutil.py](https://github.com/TurboWay/pydemo/blob/master/demo_psutil.py)       | 根据进程名杀死进程 |
 | [demo_schedule.py](https://github.com/TurboWay/pydemo/blob/master/demo_schedule.py)       | 定时执行命令 |
 | [demo_selenium.py](https://github.com/TurboWay/pydemo/blob/master/demo_selenium.py)       | 自动操作 chrome 浏览器 |
+| [demo_snownlp.py](https://github.com/TurboWay/pydemo/blob/master/demo_snownlp.py)       | snownlp 处理 |
 | [demo_sqlalchemy.py](https://github.com/TurboWay/pydemo/blob/master/demo_sqlalchemy.py)       | 执行 sql |
 | [demo_subprocess.py](https://github.com/TurboWay/pydemo/blob/master/demo_subprocess.py)       | 执行 shell |
 | [demo_useragent_parser.py](https://github.com/TurboWay/pydemo/blob/master/demo_useragent_parser.py)       | 解析 user-agent 识别用户端和其它相关信息 |
