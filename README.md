@@ -13,6 +13,7 @@
 | [demo_int.py](https://github.com/TurboWay/pydemo/blob/master/demo_int.py)       | 进制转换 |
 | [demo_jieba.py](https://github.com/TurboWay/pydemo/blob/master/demo_jieba.py)       | 结巴分词 |
 | [demo_multithread.py](https://github.com/TurboWay/pydemo/blob/master/demo_multithread.py)       | 多线程并发 |
+| [demo_numpy.py](https://github.com/TurboWay/pydemo/blob/master/demo_numpy.py)       | numpy 类型练习 |
 | [demo_pandas_datetable.py](https://github.com/TurboWay/pydemo/blob/master/demo_pandas_datetable.py)       | 生成日期表 |
 | [demo_pandas_excel.py](https://github.com/TurboWay/pydemo/blob/master/demo_pandas_excel.py)       | pandas 操作 Excel |
 | [demo_pil.py](https://github.com/TurboWay/pydemo/blob/master/demo_pil.py)       | 图片缩放处理 |
