@@ -15,6 +15,7 @@
 | [demo_multithread.py](https://github.com/TurboWay/pydemo/blob/master/demo_multithread.py)       | 多线程并发 |
 | [demo_numpy.py](https://github.com/TurboWay/pydemo/blob/master/demo_numpy.py)       | numpy 类型练习 |
 | [demo_pandas_datetable.py](https://github.com/TurboWay/pydemo/blob/master/demo_pandas_datetable.py)       | 生成日期表 |
+| [demo_pandas_db.py](https://github.com/TurboWay/pydemo/blob/master/demo_pandas_db.py)       | pandas 操作 数据库 |
 | [demo_pandas_excel.py](https://github.com/TurboWay/pydemo/blob/master/demo_pandas_excel.py)       | pandas 操作 Excel |
 | [demo_pil.py](https://github.com/TurboWay/pydemo/blob/master/demo_pil.py)       | 图片缩放处理 |
 | [demo_psutil.py](https://github.com/TurboWay/pydemo/blob/master/demo_psutil.py)       | 根据进程名杀死进程 |
