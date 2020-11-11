@@ -20,6 +20,7 @@
 | [demo_pandas_excel.py](https://github.com/TurboWay/pydemo/blob/master/demo_pandas_excel.py)       | pandas 操作 Excel |
 | [demo_pil.py](https://github.com/TurboWay/pydemo/blob/master/demo_pil.py)       | 图片缩放处理 |
 | [demo_psutil.py](https://github.com/TurboWay/pydemo/blob/master/demo_psutil.py)       | 根据进程名杀死进程 |
+| [demo_recursion.py](https://github.com/TurboWay/pydemo/blob/master/demo_recursion.py)       | 秒数时长格式化(递归) |
 | [demo_schedule.py](https://github.com/TurboWay/pydemo/blob/master/demo_schedule.py)       | 定时执行命令 |
 | [demo_selenium.py](https://github.com/TurboWay/pydemo/blob/master/demo_selenium.py)       | 自动操作 chrome 浏览器 |
 | [demo_snownlp.py](https://github.com/TurboWay/pydemo/blob/master/demo_snownlp.py)       | snownlp 处理 |
