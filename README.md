@@ -26,5 +26,6 @@
 | [demo_snownlp.py](https://github.com/TurboWay/pydemo/blob/master/demo_snownlp.py)       | snownlp 处理 |
 | [demo_sqlalchemy.py](https://github.com/TurboWay/pydemo/blob/master/demo_sqlalchemy.py)       | 执行 sql |
 | [demo_subprocess.py](https://github.com/TurboWay/pydemo/blob/master/demo_subprocess.py)       | 执行 shell |
+| [demo_tempfile.py](https://github.com/TurboWay/pydemo/blob/master/demo_tempfile.py)       | 优雅地处理临时文件 |
 | [demo_useragent_parser.py](https://github.com/TurboWay/pydemo/blob/master/demo_useragent_parser.py)       | 解析 user-agent 识别用户端和其它相关信息 |
 | [demo_weekly.py](https://github.com/TurboWay/pydemo/blob/master/demo_weekly.py)       | 下载 科技爱好者周刊 docs 源码, 遍历生成纯资源 md |
