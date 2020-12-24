@@ -16,7 +16,8 @@
 | [demo_numpy.py](https://github.com/TurboWay/pydemo/blob/master/demo_numpy.py)       | numpy 类型练习 |
 | [demo_ownthink.py](https://github.com/TurboWay/pydemo/blob/master/demo_ownthink.py)       | 思知机器人 |
 | [demo_pandas_datetable.py](https://github.com/TurboWay/pydemo/blob/master/demo_pandas_datetable.py)       | 生成日期表 |
-| [demo_pandas_db.py](https://github.com/TurboWay/pydemo/blob/master/demo_pandas_db.py)       | pandas 操作 数据库 |
+| [demo_pandas_db.py](https://github.com/TurboWay/pydemo/blob/master/demo_pandas_db.py)       | pandas 操作数据库 |
+| [demo_pandas_etl.py](https://github.com/TurboWay/pydemo/blob/master/demo_pandas_etl.py)       | pandas 做数据清洗 |
 | [demo_pandas_excel.py](https://github.com/TurboWay/pydemo/blob/master/demo_pandas_excel.py)       | pandas 操作 Excel |
 | [demo_pil.py](https://github.com/TurboWay/pydemo/blob/master/demo_pil.py)       | 图片缩放处理 |
 | [demo_psutil.py](https://github.com/TurboWay/pydemo/blob/master/demo_psutil.py)       | 根据进程名杀死进程 |

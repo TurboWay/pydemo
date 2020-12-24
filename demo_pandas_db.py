@@ -3,7 +3,7 @@
 # @Time : 2020/7/13 17:33
 # @Author : way
 # @Site : 
-# @Describe: pandas 操作 数据库
+# @Describe: pandas 操作数据库
 
 import pandas as pd
 from sqlalchemy import create_engine
