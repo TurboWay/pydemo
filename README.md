@@ -25,6 +25,9 @@
 | [demo_recursion.py](https://github.com/TurboWay/pydemo/blob/master/demo_recursion.py)       | 秒数时长格式化(递归) |
 | [demo_schedule.py](https://github.com/TurboWay/pydemo/blob/master/demo_schedule.py)       | 定时执行命令 |
 | [demo_selenium.py](https://github.com/TurboWay/pydemo/blob/master/demo_selenium.py)       | 自动操作 chrome 浏览器 |
+| [demo_sklearn_dim.py](https://github.com/TurboWay/pydemo/blob/master/demo_sklearn_dim.py)       | sklearn 降维 |
+| [demo_sklearn_model.py](https://github.com/TurboWay/pydemo/blob/master/demo_sklearn_model.py)       | sklearn 模型使用 |
+| [demo_sklearn_process.py](https://github.com/TurboWay/pydemo/blob/master/demo_sklearn_process.py)       | sklearn 数据预处理 |
 | [demo_snownlp.py](https://github.com/TurboWay/pydemo/blob/master/demo_snownlp.py)       | snownlp 处理 |
 | [demo_sqlalchemy.py](https://github.com/TurboWay/pydemo/blob/master/demo_sqlalchemy.py)       | 执行 sql |
 | [demo_subprocess.py](https://github.com/TurboWay/pydemo/blob/master/demo_subprocess.py)       | 执行 shell |
