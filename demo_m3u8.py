@@ -74,7 +74,7 @@ class m3u8:
             if path.endswith('loading'):
                 raise Exception("部分文件未下载成功, 重新执行")
 
-        os.system("copy /b * new.mp4")
+        os.system("copy /b *ts movie.mp4")
         for path in os.listdir():
             if path.endswith('.ts'):
                 os.remove(path)
