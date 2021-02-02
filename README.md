@@ -13,6 +13,7 @@
 | [demo_importlib.py](https://github.com/TurboWay/pydemo/blob/master/demo_importlib.py)       | 动态导入包 |
 | [demo_int.py](https://github.com/TurboWay/pydemo/blob/master/demo_int.py)       | 进制转换 |
 | [demo_jieba.py](https://github.com/TurboWay/pydemo/blob/master/demo_jieba.py)       | 结巴分词 |
+| [demo_m3u8.py](https://github.com/TurboWay/pydemo/blob/master/demo_m3u8.py)       | m3u8 下载器 |
 | [demo_multithread.py](https://github.com/TurboWay/pydemo/blob/master/demo_multithread.py)       | 多线程并发 |
 | [demo_numpy.py](https://github.com/TurboWay/pydemo/blob/master/demo_numpy.py)       | numpy 类型练习 |
 | [demo_onepiece.py](https://github.com/TurboWay/pydemo/blob/master/demo_onepiece.py)       | 海贼王漫画下载 |

@@ -16,7 +16,7 @@ filename = r"C:\Users\Administrator\Desktop\1.docx"
 #     st = base64.b64encode(f.read())
 #     file = BytesIO(base64.b64decode(st))
 doc = docx.Document(filename)
-paras = [para.text.replace('\n', ';').replace('\t', ' ') for para in doc.paragraphs]
+paras = [para.text for para in doc.paragraphs if para.text]
 content = ';'.join(paras)
 print(content)
 
@@ -30,7 +30,7 @@ filename = r"C:\Users\Administrator\Desktop\8E06BBABF68CA632DC0820E4DC110E4E.pdf
 #     st = base64.b64encode(f.read()).decode()
 #     file = BytesIO(base64.b64decode(st))
 pdf = pdfplumber.open(filename)
-paras = [page.extract_text().replace('\n', ';').replace('\t', ' ') for page in pdf.pages]
+paras = [page.extract_text() for page in pdf.pages if page.extract_text()]
 content = ';'.join(paras)
 print(content)
 
