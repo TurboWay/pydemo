@@ -17,7 +17,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
    
 2、使用 submit 提交时
    as_completed 返回的是对象 r ，需要调用 r.result() 获取结果，通过 r.exception() 判断函数是否报错，
-   剩余未运行的函数队列会继续运行，需要通过 task.cancel() 取消
+   如果函数报错，剩余未运行的函数队列会继续运行，需要通过 task.cancel() 取消
 """
 
 
