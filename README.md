@@ -15,7 +15,8 @@
 | [demo_int.py](https://github.com/TurboWay/pydemo/blob/master/demo_int.py)       | 进制转换 |
 | [demo_jieba.py](https://github.com/TurboWay/pydemo/blob/master/demo_jieba.py)       | 结巴分词 |
 | [demo_m3u8.py](https://github.com/TurboWay/pydemo/blob/master/demo_m3u8.py)       | m3u8 下载器 |
-| [demo_multithread.py](https://github.com/TurboWay/pydemo/blob/master/demo_multithread.py)       | 多线程并发 |
+| [demo_m3u8_AES.py](https://github.com/TurboWay/pydemo/blob/master/demo_m3u8_AES.py)       | m3u8 下载器 (AES加密) |
+| [demo_multithread.py](https://github.com/TurboWay/pydemo/blob/master/demo_multithread.py)       | 多线程并发 + 进度条 |
 | [demo_numpy.py](https://github.com/TurboWay/pydemo/blob/master/demo_numpy.py)       | numpy 类型练习 |
 | [demo_onepiece.py](https://github.com/TurboWay/pydemo/blob/master/demo_onepiece.py)       | 海贼王漫画下载 |
 | [demo_ownthink.py](https://github.com/TurboWay/pydemo/blob/master/demo_ownthink.py)       | 思知机器人 |

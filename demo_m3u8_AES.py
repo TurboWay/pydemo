@@ -1,30 +1,32 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Time : 2021/2/2 12:20
+# @Time : 2021/2/27 19:31
 # @Author : way
 # @Site : 
-# @Describe:  m3u8 下载器
+# @Describe: m3u8 下载器 (AES加密)
 
 import os
 import re
 import requests
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from Crypto.Cipher import AES
+
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'
 }
 
+key = '92c4749ace9c8bba'
+cryptor = AES.new(key.encode('utf-8'), AES.MODE_CBC)
 
 class m3u8:
 
-    def __init__(self, url, dir, num=10):
+    def __init__(self, dir, num=10):
         """
-        :param url: m3u8 地址
         :param dir: 下载路径
         :param num: 并发数
         """
-        self.url = url
         self.dir = dir
         self.num = num
 
@@ -43,22 +45,19 @@ class m3u8:
         path_loading = f'{path}.loading'
         try:
             with open(path_loading, 'wb') as f:
-                res = requests.get(ts_url, headers=headers, stream=True, timeout=60)
-                for chunk in res.iter_content(chunk_size=512):
-                    f.write(chunk)
+                data = requests.get(ts_url, headers=headers, stream=True, timeout=60).content
+                f.write(cryptor.decrypt(data))
             os.rename(path_loading, path)
         except:
             ...
 
     def get_urls(self):
         urls = []
-        response = requests.get(self.url, headers=headers, timeout=60)
-        url_head = '/'.join(self.url.split('/')[:-1])
-        for px, ts in enumerate(re.findall('(.*?ts)', response.text)):
-            path = f'{dir}/{self.sort(px)}.ts'
-            ts_url = f'{url_head}/{ts}'
-            urls.append((path, ts_url))
-        return urls
+        with open('魔女m3u8.txt', 'r') as f:
+            for px, ts_url in enumerate(re.findall('(.*?js)', f.read())):
+                path = f'{dir}/{self.sort(px)}.ts'
+                urls.append((path, ts_url))
+            return urls
 
     def download(self):
         urls = self.get_urls()
@@ -80,8 +79,7 @@ class m3u8:
 
 
 if __name__ == "__main__":
-    dir = f'{os.getcwd()}/files/太极张三丰'
-    url = 'https://vip.okokbo.com/20171220/u3xevz97/800kb/hls/index.m3u8'
-    m = m3u8(url, dir, 20)
+    dir = f'{os.getcwd()}/files/魔女'
+    m = m3u8(dir, 20)
     m.download()
     m.merge()
