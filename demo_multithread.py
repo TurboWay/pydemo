@@ -18,8 +18,8 @@ def threads_map():
         print(i)
 
     with ThreadPoolExecutor(max_workers=10) as pool:
-        pool.map(func, range(50))
-        pool.shutdown(wait=True)
+        for _ in pool.map(func, range(50)):
+            ...
 
 
 # 多线程 + map (多参数、有返回结果)
@@ -44,8 +44,9 @@ def threads_tqdm():
 
     with ThreadPoolExecutor(max_workers=10) as pool:
         tasks = [pool.submit(func, i) for i in range(10)]
-        for _ in tqdm(as_completed(tasks), desc='处理中...', total=len(tasks)):
-            ...
+        for r in tqdm(as_completed(tasks), desc='处理中...', total=len(tasks)):
+            if r.exception():
+                raise r.exception()
 
 
 # 多线程 + 进度条(有返回值)
@@ -57,6 +58,8 @@ def threads_tqdm_return():
     with ThreadPoolExecutor(max_workers=10) as pool:
         tasks = [pool.submit(func, *(i, i)) for i in range(50)]
         for r in tqdm(as_completed(tasks), desc='处理中...', total=len(tasks)):
+            if r.exception():
+                raise r.exception()
             print(r.result())
 
 
