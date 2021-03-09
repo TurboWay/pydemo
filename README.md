@@ -5,6 +5,8 @@
 
 | demo | 功能  | 
 | ------------ | ------------ |
+| [demo_algorithm_hash.py](https://github.com/TurboWay/pydemo/blob/master/demo_algorithm_hash.py)       | 一致性哈希算法 |
+| [demo_algorithm_sort.py](https://github.com/TurboWay/pydemo/blob/master/demo_algorithm_sort.py)       | 排序算法 |
 | [demo_code.py](https://github.com/TurboWay/pydemo/blob/master/demo_code.py)       | 字符编码处理 |
 | [demo_code_video.py](https://github.com/TurboWay/pydemo/blob/master/demo_code_video.py)       | 将视频转换成代码视频 |
 | [demo_decorator.py](https://github.com/TurboWay/pydemo/blob/master/demo_decorator.py)       | 重试、计时装饰器 |
