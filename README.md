@@ -11,6 +11,7 @@
 | [demo_code_video.py](https://github.com/TurboWay/pydemo/blob/master/demo_code_video.py)       | 将视频转换成代码视频 |
 | [demo_decorator.py](https://github.com/TurboWay/pydemo/blob/master/demo_decorator.py)       | 重试、计时装饰器 |
 | [demo_faker.py](https://github.com/TurboWay/pydemo/blob/master/demo_faker.py)       | 生成假数据 |
+| [demo_fastapi.py](https://github.com/TurboWay/pydemo/blob/master/demo_fastapi.py)       | fastapi 写 api 服务 |
 | [demo_file_parse.py](https://github.com/TurboWay/pydemo/blob/master/demo_file_parse.py)       | docx , pdf 文件解析 |
 | [demo_github_host.py](https://github.com/TurboWay/pydemo/blob/master/demo_github_host.py)       | 更新 github 的 host 配置 |
 | [demo_importlib.py](https://github.com/TurboWay/pydemo/blob/master/demo_importlib.py)       | 动态导入包 |
