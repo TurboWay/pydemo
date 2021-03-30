@@ -23,7 +23,7 @@ for demo in os.listdir():
         with open(demo, 'r', encoding='utf-8') as f:
             desc = re.findall("@Describe:(.*)", f.read())
         desc = desc[0].strip() if desc else ''
-        str = f"| [{demo}](https://github.com/TurboWay/pydemo/blob/master/{demo})       | {desc} |\n"
+        str = f"| [{demo}]({demo})       | {desc} |\n"
         md += str
 
 with open("README.md", 'w', encoding='utf-8') as f:
