@@ -13,6 +13,7 @@
 | [demo_faker.py](demo_faker.py)       | 生成假数据 |
 | [demo_fastapi.py](demo_fastapi.py)       | fastapi 写 api 服务 |
 | [demo_file_parse.py](demo_file_parse.py)       | docx , pdf 文件解析 |
+| [demo_fire.py](demo_fire.py)       | python 写命令行工具 |
 | [demo_github_host.py](demo_github_host.py)       | 更新 github 的 host 配置 |
 | [demo_importlib.py](demo_importlib.py)       | 动态导入包 |
 | [demo_int.py](demo_int.py)       | 进制转换 |
