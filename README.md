@@ -24,7 +24,8 @@
 | [demo_numpy.py](demo_numpy.py)       | numpy 类型练习 |
 | [demo_onepiece.py](demo_onepiece.py)       | 海贼王漫画下载 |
 | [demo_ownthink.py](demo_ownthink.py)       | 思知机器人 |
-| [demo_pandas_datetable.py](demo_pandas_datetable.py)       | 生成日期表 |
+| [demo_pandas_analyze.py](demo_pandas_analyze.py)       | pandas 数据统计 |
+| [demo_pandas_datetable.py](demo_pandas_datetable.py)       | pandas 生成日期表 |
 | [demo_pandas_db.py](demo_pandas_db.py)       | pandas 操作数据库 |
 | [demo_pandas_etl.py](demo_pandas_etl.py)       | pandas 做数据清洗 |
 | [demo_pandas_excel.py](demo_pandas_excel.py)       | pandas 操作 Excel |

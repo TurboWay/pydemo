@@ -3,7 +3,7 @@
 # @Time : 2020/8/31 14:31
 # @Author : way
 # @Site : 
-# @Describe: 生成日期表
+# @Describe: pandas 生成日期表
 
 import pandas as pd
 from sqlalchemy import create_engine
