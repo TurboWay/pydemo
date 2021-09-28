@@ -37,9 +37,11 @@
 | [demo_selenium.py](demo_selenium.py)       | 自动操作 chrome 浏览器 |
 | [demo_sklearn_dim.py](demo_sklearn_dim.py)       | sklearn 降维 |
 | [demo_sklearn_model.py](demo_sklearn_model.py)       | sklearn 模型使用 |
+| [demo_sklearn_predict.py](demo_sklearn_predict.py)       | 线性回归模型做预测 |
 | [demo_sklearn_process.py](demo_sklearn_process.py)       | sklearn 数据预处理 |
 | [demo_snownlp.py](demo_snownlp.py)       | snownlp 处理 |
 | [demo_sqlalchemy.py](demo_sqlalchemy.py)       | 执行 sql |
+| [demo_ssh.py](demo_ssh.py)       | ssh服务器下载文件夹到本地 |
 | [demo_subprocess.py](demo_subprocess.py)       | 执行 shell |
 | [demo_tempfile.py](demo_tempfile.py)       | 优雅地处理临时文件 |
 | [demo_useragent_parser.py](demo_useragent_parser.py)       | 解析 user-agent 识别用户端和其它相关信息 |

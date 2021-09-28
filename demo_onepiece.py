@@ -10,7 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def down(num, wxurl):
-    dir = f'{os.getcwd()}/files/海賊王/{num}'
+    dir = f'海賊王/{num}'
     os.makedirs(dir, exist_ok=True)
     res = requests.get(wxurl)
     imgs = BeautifulSoup(res.text, 'lxml').find('div', id="js_content").find_all('img')
