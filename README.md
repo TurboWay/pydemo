@@ -44,5 +44,6 @@
 | [demo_ssh.py](demo_ssh.py)       | ssh服务器下载文件夹到本地 |
 | [demo_subprocess.py](demo_subprocess.py)       | 执行 shell |
 | [demo_tempfile.py](demo_tempfile.py)       | 优雅地处理临时文件 |
+| [demo_tkinter.py](demo_tkinter.py)       | tkinter 制作可视化小工具 |
 | [demo_useragent_parser.py](demo_useragent_parser.py)       | 解析 user-agent 识别用户端和其它相关信息 |
 | [demo_weekly.py](demo_weekly.py)       | 下载 科技爱好者周刊 docs 源码, 遍历生成纯资源 md |
