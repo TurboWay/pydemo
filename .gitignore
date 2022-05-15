@@ -12,3 +12,5 @@
 /files/魔女/
 /config.py
 /海賊王/
+/.qiniu_pythonsdk_hostscache.json
+/qiniu_monitor.log

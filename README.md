@@ -15,7 +15,6 @@
 | [demo_file_parse.py](demo_file_parse.py)       | docx , pdf 文件解析 |
 | [demo_fire.py](demo_fire.py)       | python 写命令行工具 |
 | [demo_github_host.py](demo_github_host.py)       | 更新 github 的 host 配置 |
-| [demo_imgtu.py](demo_imgtu.py)       | 路过图床自动上传 |
 | [demo_importlib.py](demo_importlib.py)       | 动态导入包 |
 | [demo_int.py](demo_int.py)       | 进制转换 |
 | [demo_jieba.py](demo_jieba.py)       | 结巴分词 |
@@ -32,6 +31,7 @@
 | [demo_pandas_excel.py](demo_pandas_excel.py)       | pandas 操作 Excel |
 | [demo_pil.py](demo_pil.py)       | 图片缩放处理 |
 | [demo_psutil.py](demo_psutil.py)       | 根据进程名杀死进程 |
+| [demo_qiniu_monitor.py](demo_qiniu_monitor.py)       | 七牛云 oss 自动监控流量 |
 | [demo_qrcode.py](demo_qrcode.py)       | 二维码的生成与解读 |
 | [demo_recursion.py](demo_recursion.py)       | 秒数时长格式化(递归) |
 | [demo_schedule.py](demo_schedule.py)       | 定时执行命令 |
@@ -45,7 +45,7 @@
 | [demo_ssh.py](demo_ssh.py)       | ssh服务器文件夹上传下载 |
 | [demo_subprocess.py](demo_subprocess.py)       | 执行 shell |
 | [demo_tempfile.py](demo_tempfile.py)       | 优雅地处理临时文件 |
-| [demo_tinify.py](demo_tinify.py)       | 图片压缩 |
+| [demo_tinify.py](demo_tinify.py)       | tinypng 图片压缩 |
 | [demo_tkinter.py](demo_tkinter.py)       | tkinter 制作可视化小工具 |
 | [demo_useragent_parser.py](demo_useragent_parser.py)       | 解析 user-agent 识别用户端和其它相关信息 |
 | [demo_weekly.py](demo_weekly.py)       | 下载 科技爱好者周刊 docs 源码, 遍历生成纯资源 md |
