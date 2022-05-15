@@ -82,7 +82,7 @@ def update_meta(chapter, title):
     insert_sql = f"""
     INSERT INTO chapters
     (id, title, comic_id, chapter_number, front_cover, refresh_time, images)
-    VALUES({chapter}, {title}, 1, {chapter}, '{imgs[0]}', now(), '{json.dumps(imgs)}');
+    VALUES({chapter}, '{title}', 1, {chapter}, '{imgs[0]}', now(), '{json.dumps(imgs)}');
     """
     cur.execute(delete_sql)
     cur.execute(insert_sql)
@@ -93,7 +93,7 @@ def update_meta(chapter, title):
 
 
 if __name__ == "__main__":
-    num = 1050
+    num = 0
     title = ''
     wxurl = ''
     # down(num, wxurl)
