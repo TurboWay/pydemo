@@ -7,6 +7,7 @@
 | ------------ | ------------ |
 | [demo_algorithm_hash.py](demo_algorithm_hash.py)       | 一致性哈希算法 |
 | [demo_algorithm_sort.py](demo_algorithm_sort.py)       | 排序算法 |
+| [demo_asyncio.py](demo_asyncio.py)       | 异步 |
 | [demo_code.py](demo_code.py)       | 字符编码处理 |
 | [demo_code_video.py](demo_code_video.py)       | 将视频转换成代码视频 |
 | [demo_decorator.py](demo_decorator.py)       | 重试、计时装饰器 |
@@ -21,6 +22,7 @@
 | [demo_m3u8.py](demo_m3u8.py)       | m3u8 下载器 |
 | [demo_m3u8_AES.py](demo_m3u8_AES.py)       | m3u8 下载器 (AES加密) |
 | [demo_multithread.py](demo_multithread.py)       | 多线程并发 + 进度条 |
+| [demo_nginx_block_ip.py](demo_nginx_block_ip.py)       | nginx 自动禁ip |
 | [demo_numpy.py](demo_numpy.py)       | numpy 类型练习 |
 | [demo_onepiece.py](demo_onepiece.py)       | 海贼王漫画下载 |
 | [demo_ownthink.py](demo_ownthink.py)       | 思知机器人 |
