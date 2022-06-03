@@ -70,7 +70,9 @@ def update_meta(chapter, title):
     cur = conn.cursor()
     imgs = []
     if not os.path.exists(f'F:\海賊王\{chapter}'):
-        shutil.copy(f'海賊王/{chapter}', f'F:\海賊王\{chapter}')
+        os.mkdir(f'F:\海賊王\{chapter}')
+        for i in os.listdir(f'海賊王/{chapter}'):
+            shutil.copy(f'海賊王/{chapter}/{i}', f'F:\海賊王\{chapter}\{i}')
     source_chapter_path = f"F:\海賊王\{chapter}"
     for i in os.listdir(source_chapter_path):
         source_path = os.path.join(source_chapter_path, i)
@@ -93,9 +95,9 @@ def update_meta(chapter, title):
 
 
 if __name__ == "__main__":
-    num = 0
-    title = ''
-    wxurl = ''
-    down(num, wxurl)
+    num = 1051
+    title = '和之国将军 光月桃之助'
+    wxurl = 'https://mp.weixin.qq.com/s/Mrds5nzkTR2wa3ayLVZAHQ'
+    # down(num, wxurl)
     # file_order_rename(num)
-    # update_meta(num, title)
+    update_meta(num, title)
