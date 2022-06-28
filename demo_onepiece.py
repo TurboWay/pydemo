@@ -57,7 +57,7 @@ def qiniu_upload(bucket_name, source_path, target):
     # 要上传文件的本地路径
     ret, info = put_file(token, target, source_path, version='v2')
     if info.status_code == 200:
-        print(f"上传成功: {source_path} >> {target}")
+        print(f"上传成功: {source_path} >> http://{qiniu_urls[0]}/{target}")
         return True
     else:
         print(f"上传失败: {source_path} ")
@@ -70,13 +70,15 @@ def update_meta(chapter, title):
     cur = conn.cursor()
     imgs = []
     if not os.path.exists(f'F:\海賊王\{chapter}'):
-        shutil.copy(f'海賊王/{chapter}', f'F:\海賊王\{chapter}')
+        os.mkdir(f'F:\海賊王\{chapter}')
+        for i in os.listdir(f'海賊王/{chapter}'):
+            shutil.copy(f'海賊王/{chapter}/{i}', f'F:\海賊王\{chapter}\{i}')
     source_chapter_path = f"F:\海賊王\{chapter}"
     for i in os.listdir(source_chapter_path):
         source_path = os.path.join(source_chapter_path, i)
+        qiniu_upload(qiniu_bucket_name, source_path, f'{chapter}/{i}')
         target = f'http://{qiniu_urls[0]}/{chapter}/{i}'
         imgs.append(target)
-        qiniu_upload(qiniu_bucket_name, source_path, target)
     imgs.sort(key=lambda x: int(x.split('/')[-1].split('.')[0]))
     delete_sql = f"delete from chapters where id={chapter}"
     insert_sql = f"""
@@ -93,9 +95,9 @@ def update_meta(chapter, title):
 
 
 if __name__ == "__main__":
-    num = 0
-    title = ''
-    wxurl = ''
+    num = 1051
+    title = '和之国将军 光月桃之助'
+    wxurl = 'https://mp.weixin.qq.com/s/Mrds5nzkTR2wa3ayLVZAHQ'
     # down(num, wxurl)
     # file_order_rename(num)
-    # update_meta(num, title)
+    update_meta(num, title)
