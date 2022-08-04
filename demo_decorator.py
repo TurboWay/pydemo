@@ -44,8 +44,9 @@ def retry_withparam(*args, **kwargs):
             for i in range(max_retry + 1):
                 if i > 0:
                     print(f"尝试第{i}次执行...")
-                if func(*args, **kwargs):
-                    break
+                flag = func(*args, **kwargs)
+                if flag:
+                    return flag
 
         return run
 
